@@ -1,0 +1,33 @@
+===========================
+The "subtract" function
+===========================
+
+
+---------------------------
+How to use "subtract"
+---------------------------
+
+The "subtract" function needs to be imported from the **my_math** module like that:
+>>> from my_math import subtract
+
+Now you can use "subtract" to subtract various data types together, such as integer, float and more.
+
+Here is an example:
+>>> subtract(6, 5)
+    1
+
+>>> subtract(-3, 4)
+    -7
+
+>> subtract(-3, -4)
+    1
+
+We can't subtract types(str)
+
+>>> subtract("hi", "Daniela")
+    Traceback (most recent call last):
+    TypeError: unsupported operand type(s) for -: 'str' and 'str'
+
+>>> subtract(3, "hi")
+    Traceback (most recent call last):
+    TypeError: unsupported operand type(s) for -: 'int' and 'str'
