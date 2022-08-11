@@ -1,0 +1,27 @@
+===========================
+The "multiply" function
+===========================
+
+
+---------------------------
+How to use "multiply"
+---------------------------
+
+The "multiply" function needs to be imported from the **my_math** module like that:
+>>> from my_math import multiply
+
+Now you can use "multiply" to multiply various data types together, such as integer, float, strings and more.
+
+Here is an example:
+>>> multiply(5, 6)
+    30
+
+>>> multiply('d', 3)
+    'ddd'
+
+>>> multiply(3, -4)
+    -12
+
+>>> multiply('h', 'd')
+    Traceback (most recent call last):
+    TypeError: can't multiply sequence by non-int of type 'str'
