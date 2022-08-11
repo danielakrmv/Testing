@@ -1,0 +1,30 @@
+===========================
+The "add" function
+===========================
+
+
+---------------------------
+How to use "add"
+---------------------------
+
+The "add" function needs to be imported from the **my_math** module like that:
+>>> from my_math import add
+
+Now you can use "add" to add various data types together, such as integer, float, strings and more.
+
+Here is an example:
+>>> add(2, 3)
+    5
+
+>>> add(-2, 3)
+    1
+
+>>> add("h", "i")
+    'hi'
+
+We can't add types 'int' with types 'str':
+
+>>> add(1, "Daniela")
+    Traceback (most recent call last):
+    TypeError: unsupported operand type(s) for +: 'int' and 'str'
+    """
